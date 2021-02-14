@@ -9,7 +9,15 @@ module.exports = {
       address: `PO Box 1234`
     }
   },
+ 
   plugins: [
+  {
+    resolve: `gatsby-source-contentful`,
+    options: {
+      spaceId: `9xwdwlmbqc24`,
+      accessToken: `CmCUUWeaTL1poJ19WA8CByjAfr0_g6jplz6tlBKBrdk`
+    }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
