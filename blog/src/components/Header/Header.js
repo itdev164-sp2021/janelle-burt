@@ -33,9 +33,8 @@ const Header = ({ siteTitle }) => (
       </H1>
     </Inner>
   </Outer>
-
 )
- 
+
 Header.propTypes = {
   siteTitle: PropTypes.string,
 }
@@ -44,4 +43,5 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+
+export { Header }

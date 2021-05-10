@@ -6,6 +6,8 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { List, ListItem } from "../components/List"
+
 
 const IndexPage = ({ data }) => (
   <Layout>
